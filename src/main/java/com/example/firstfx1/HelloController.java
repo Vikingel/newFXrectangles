@@ -37,8 +37,13 @@ public class HelloController {
         recsList.setText(String.valueOf(recs));
         for (Rectangles r : recs) {
             rec=new Shape() {
-            }
-            vBox1.getChildren().add(new Label(String.valueOf(r)));
+                @Override
+                public boolean hasProperties() {
+                    rec.
+                    return super.hasProperties();
+                }
+            };
+                        vBox1.getChildren().add(rec);
 
                   }
         }
