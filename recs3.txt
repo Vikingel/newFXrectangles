@@ -1,5 +1,5 @@
 70 60 black
 50 40 yellow
-30 20 blue
+30 20 violet
 50 40 red
-70 60 green
+70 60 orange

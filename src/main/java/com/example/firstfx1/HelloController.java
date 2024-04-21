@@ -28,7 +28,6 @@ public class HelloController {
     @FXML
     Label caption;
 
-
     @FXML
     ComboBox<String> fileName;
     ;
