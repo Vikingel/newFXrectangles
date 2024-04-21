@@ -1,5 +1,7 @@
 package com.example.firstfx1;
 
+import javafx.scene.paint.Paint;
+
 import java.util.ArrayList;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,9 +10,9 @@ import java.util.Scanner;
 public class Rectangles {
     double a;
     double b;
-    String color;
+    Paint color;
 
-    public Rectangles(double a, double b, String color) {
+    public Rectangles(double a, double b, Paint color) {
         this.a=a;
         this.b=b;
         this.color=color;
@@ -32,7 +34,7 @@ public class Rectangles {
         while(scanner.hasNext()) {
             double a = scanner.nextDouble();
             double b = scanner.nextDouble();
-            String color=scanner.next();
+            Paint color= Paint.valueOf(scanner.next());
             Rectangles r = new Rectangles(a, b, color);
             recs.add(r);
         }

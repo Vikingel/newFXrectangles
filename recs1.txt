@@ -1,0 +1,5 @@
+50 40 blue
+30 20 green
+70 50 red
+20 60 yellow
+70 10 orange
